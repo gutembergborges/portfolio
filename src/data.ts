@@ -66,7 +66,7 @@ export const projects: Project[] = [
     tagline: 'Single-video audio converter for personal offline use',
     description:
       'CLI and small local web UI that converts one video link to an MP3. Playlists are refused on purpose, errors are friendly, and the tests mock the network.',
-    stack: ['Python', 'yt-dlp', 'ffmpeg', 'FastAPI', 'pytest'],
+    stack: ['Python', 'yt-dlp', 'ffmpeg', 'http.server', 'unittest'],
     status: 'Active',
   },
 ]
